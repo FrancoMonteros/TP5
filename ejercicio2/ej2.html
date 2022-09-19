@@ -1,12 +1,76 @@
 <!DOCTYPE html>
 <html lang="es">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css"
+        integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous">
     <title>ejercicio2</title>
 </head>
-<body>
-    
+
+<body class="bg-info">
+    <header>
+        <h1 class="titulo text-center ">Formulario</h1>
+
+    </header>
+    <main class="container">
+        <section class="my-5">
+            <form id="form">
+                <div class="mb-3">
+                    <label for="input nombre">Nombre</label>
+                    <input type="text" id="inputNombre" class="classNombre form-control"
+                        placeholder="ingrese su nombre">
+                </div>
+                <div class="mb-3">
+                    <label for="inputEdad">Edad</label>
+                    <input type="number" id="inputEdad" class="classEdad form-control" placeholder="ingrese su edad">
+                </div>
+                <div class="mb-3">
+                    <label for="inputDNI">DNI</label>
+                    <input type="number" id="inputDNI" class="classdni form-control" placeholder="ingrese su dni">
+                </div>
+                <div class="mb-3">
+                    <label for="inputSexo">Sexo</label>
+                    <select id="genero" class="form-control">
+                        <option value="">Seleccione una opcion</option>
+                        <option value="H">Hombre</option>
+                        <option value="M">Mujer</option>
+                      </select>
+                </div>
+                <div class="mb-3">
+                    <label for="inputPeso">Peso</label>
+                    <input type="number" id="inputPeso" class="classPeso form-control" placeholder="Kg">
+                </div>
+                <div class="mb-3">
+                    <label for="inputAltura">Altura</label>
+                    <input type="number" class="classAltura form-control" id="inputAltura" placeholder="Cm">
+                </div>
+                <div class="mb-3">
+                    <label for="inputNacimiento">Año De Nacimiento</label>
+                    <input type="number" id="inputNacimiento" class="classNacimiento form-control"
+                        placeholder="año de nacimiento">
+                    <div class="text-right my-2">
+                        <button type="submit" class=" btn btn-primary">guardar</button>
+                    </div>
+                    <div class="text-right my-2">
+                        <button type="button" class=" btn btn-primary" id="mayorEdades">mayor de edad?</button>
+                    </div>
+                    <div class="text-right my-2">
+                        <button type="button" class=" btn btn-primary" id="generacion">A que generacion perteneces?</button>
+                    </div>
+                </div>
+            </form>
+        </section>
+    </main>
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js"
+        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-Fy6S3B9q64WdZWQUiU+q4/2Lc9npb8tCaSX9FK7E8HnRr0Jz8D6OP9dO5Vg3Q9ct"
+        crossorigin="anonymous"></script>
+    <script src="/ejercicio2/ej2.js"></script>
 </body>
+
 </html>

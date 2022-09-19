@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/ejercicio5/ej5.css">
+    <title>ejercicio5</title>
+</head>
+<body>
+   <main>
+      <h1>Cronómetro</h1>
+      <hr>
+      <article>
+        <div class="relojes">
+          <p class="reloj" id="Horas">00</p>
+          <p class="reloj" id="Minutos">:00</p>
+          <p class="reloj" id="Segundos">:00</p>
+          <p class="reloj" id="Centesimas">:00</p>
+        </div>
+        <div class="botones">
+          <button id="inicio" onclick="inicio()">Start</button>
+          <button id="parar" onclick="stop()">Pausa</button>
+          <button id="continuar" onclick="inicio()">Reanudar</button>
+          <button id="reiniciar" onclick="reiniciar()">Reiniciar</button>
+        </div>
+      </article>
+    </main>
+
+    <script src="/ejercicio5/ej5.js"></script>
+</body>
+</html>

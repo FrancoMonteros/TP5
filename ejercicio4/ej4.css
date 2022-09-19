@@ -1,0 +1,29 @@
+body {
+  display: flex;
+  flex-direction: column;
+  background-image: linear-gradient(to right, rgb(4, 2, 85), rgb(175, 176, 207));
+  color: aliceblue;
+  align-items: center;
+  margin-top: 100px;
+}
+
+.fechaHora {
+  font-size: 50px;
+}
+
+#fecha {
+  background-color: rgb(5, 5, 40);
+  border: 1px solid;
+  padding: 10px;
+  width: 500px;
+
+}
+
+#hora {
+  background-color: rgb(5, 5, 40);
+  border: 1px solid;
+  padding: 10px;
+  width: 250px;
+  text-align: center;
+  margin-top: 20px;
+}

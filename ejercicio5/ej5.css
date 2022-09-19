@@ -1,0 +1,19 @@
+body{
+    display: flex;
+    flex-direction: column;
+    background-color: brown;
+    text-align: center;
+    color: white;
+}
+
+h1 {
+   font-size: 75px;
+}
+.relojes{
+    font-size: 75px;
+    justify-content: center;
+    display: flex;
+}
+#inicio, #parar, #reiniciar, #continuar{
+    font-size: 20px;
+}

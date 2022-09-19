@@ -4,7 +4,7 @@ const botonEnviar = document.getElementById('enviar');
 
 let numero_aleatorio;
 let numero_usuario;
-let intentos = 0;
+
 
 botonComenzar.addEventListener('click', comenzarJuego);
 input.addEventListener('change', setInput)
@@ -26,7 +26,7 @@ function comparacion() {
     } else if (numero_usuario > numero_aleatorio) {
         elemento.innerHTML = 'casi casi pero no'
     } else if (numero_usuario < numero_aleatorio) {
-        elemento.innerHTML = 'sigue intentando'
+        elemento.innerHTML = 'no no, sigue intentando'
     }
     document.body.appendChild(elemento)
 }
